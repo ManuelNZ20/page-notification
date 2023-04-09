@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,500;0,800;1,500;1,800&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <main class="main container">
+    <div class="main-header container">
+      <span class="title-header">
+        Notifications <span class="counter-notification"></span>
+      </span>
+      <span class="all-notification">
+        Mark all as read
+      </span>
+    </div>
+    <div class="main-container container">
+      <div class="user-notification not-mark">
+        <img class="image-user" src="./assets/images/avatar-mark-webber.webp" alt="image user">
+        <p class="info-notification">
+          <span class="user-name">
+            Mark Webber
+          </span>reacted to your recent post
+          <span class="information-notification">
+            My first tournament today!
+          </span>
+          <span class="state-notification"></span>
+        </p>
+        <p class="info-date">
+          1m ago
+        </p>
+      </div>
+      <div class="user-notification not-mark">
+        <img class="image-user" src="./assets/images/avatar-angela-gray.webp" alt="image user">
+        <p class="info-notification">
+          <span class="user-name">Angela Gray</span> followed you <span class="state-notification"></span>
+        </p>
+        <p class="info-date">
+          5m ago
+        </p>
+      </div>
+      <div class="user-notification not-mark">
+        <img class="image-user" src="./assets/images/avatar-jacob-thompson.webp" alt="image user">
+        <p class="info-notification">
+          <span class="user-name">Jacob Thompson</span> has joined your group <span
+            class="information-notification">Chess Club</span>
+          <span class="state-notification"></span>
+        </p>
+        <p class="info-date">
+          1 day ago
+        </p>
+      </div>
+      <div class="user-notification not-mark info-block">
+        <img class="image-user" src="./assets/images/avatar-rizky-hasanuddin.webp" alt="image user">
+        <p class="info-notification">
+          <span class="user-name">Rizky Hasanuddin</span>
+          sent you a private message
+          <span class="state-notification"></span>
+        </p>
+        <p class="info-date">
+          5 days ago
+        </p>
+      </div>
+      <div class="block-info inactive">
+        <p class="info-notification">
+          Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having
+          lots
+          of fun and improving my game.
+        </p>
+      </div>
+      <div class="user-notification not-mark image-notification">
+        <img class="image-user" src="./assets/images/avatar-kimberly-smith.webp" alt="image user">
+        <p class="info-notification">
+          <span class="user-name">
+            Kimberly Smith
+          </span>
+          commented on your picture
+          <span class="state-notification"></span>
+        </p>
+        <p class="info-date">
+          1 week ago
+        </p>
+        <img class="img-image-notification" src="./assets/images/image-chess.webp" alt="">
+      </div>
+      <div class="user-notification not-mark">
+        <img class="image-user"src="./assets/images/avatar-nathan-peterson.webp" alt="image user">
+        <p class="info-notification">
+          <span class="user-name">
+            Nathan Peterson
+          </span>
+          reacted to your recent post
+          <span class="information-notification">
+            5 end-game strategies to increase your win rate
+          </span>
+          <span class="state-notification"></span>
+        </p>
+        <p class="info-date">
+          2 weeks ago
+        </p>
+      </div>
+      <div class="user-notification not-mark">
+        <img class="image-user"src="./assets/images/avatar-anna-kim.webp" alt="image user" class="">
+        <p class="info-notification">
+          <span class="user-name">
+            Anna Kim
+          </span>
+          left the group
+          <span class="information-notification">
+            Chess Club
+          </span>
+          <span class="state-notification"></span>
+        </p>
+        <p class="info-date">
+          2 weeks ago
+        </p>
+      </div>
+    </div>
+  </main>
+  <script src="./index.js" type="module"></script>
+</body>
+
+</html>
